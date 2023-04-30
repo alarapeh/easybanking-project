@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+body{
+    font-family: 'Public Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ a {
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+gap: 10rem;
+padding: 10px;
+justify-content: space-around;
+}
+.nav-sec{
+    display: flex;
+
+}
+a.navlinks{
+    padding: 15px;
+}
+.logo-btn  {
+    border-radius: 4rem;
+    background-color: hsl(158.35deg 56.6% 53.92%);
+    color: white;
+    padding: 3px;
+    
+}
+/* INTRO SEC */
+ .intro{
+    display: flex;
+    background-color:  hsl(0, 0%, 90%);
+    overflow: hidden;
+}
+.intro-img{
+    background-image: url(../images/bg-intro-desktop.svg);
+    margin-left: 5px;
+    margin-top: -96px;
+    overflow: hidden;
+    
+}
+.intro-img2{
+    margin-left: 190px;
+    margin-top: -49px;
+}
+.intro-text {
+    padding: 19rem 5rem 0 5rem;
+
+}
+.int-head{
+    padding: 2rem 0;
+    font-size: 52px;
+    width: 358px;
+}
+.lead{
+    padding-bottom: 2rem;
+    width: 354px;
+}
