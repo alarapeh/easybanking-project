@@ -101,7 +101,7 @@ a.navlinks{
 /*ARTICLES*/
 .articles{
     padding: 5rem;
-    background-color: hsl(0, 0%, 100%)
+    background-color: hsl(0, 0%, 96%)
 }
 .article-head{
     padding: 3rem 0;
@@ -109,12 +109,21 @@ a.navlinks{
 .articles-holder{
     display: flex;
     width: 100%;
+    gap: 10px;
 }
 .claire{
-    width: 25%;
+    width: 100%;
+    background-color: white;
+    object-fit: cover;
+    
+    
+    
 }
 .imgs{
-    width: 90%;
+    width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.lfw{
+    padding: 10px;
 }
