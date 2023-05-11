@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/stlyes.css">
-  
+
   <title>Frontend Mentor | Easybank landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <header>
     <nav>
       <div class="navlogo"><a href="" class="navlogolink"><img src="images/logo.svg" alt="logo"></a></div>
-        <div class="split">
-          <a href="" class="navlinks">Home</a>
-          <a href="" class="navlinks">About</a>
-          <a href="" class="navlinks">Contact</a>
-          <a href="" class="navlinks" >Blog</a>
-          <a href="" class="navlinks">Careers</a>
-        </div>
-        <div>
-          <button  class="btn logo-btn"><a href="" class="navlinks white">Request Invite</a></button>
-        </div>
+      <div class="split">
+        <a href="" class="navlinks">Home</a>
+        <a href="" class="navlinks">About</a>
+        <a href="" class="navlinks">Contact</a>
+        <a href="" class="navlinks">Blog</a>
+        <a href="" class="navlinks">Careers</a>
+      </div>
+      <div>
+        <button class="btn logo-btn"><a href="" class="navlinks white">Request Invite</a></button>
+      </div>
     </nav>
   </header>
   <section class="intro">
     <div class="intro-text">
       <h3 class="int-head">Next generation digital banking</h3>
-    <p class="lead">Take your financial life online. Your Easybank account will be a one-stop-shop 
-      for spending, saving, budgeting, investing, and much more.</p>
-      <button class=" logo-btn"><a href="" class="navlinks  white" >Request Invite</a></button>
+      <p class="lead">Take your financial life online. Your Easybank account will be a one-stop-shop
+        for spending, saving, budgeting, investing, and much more.</p>
+      <button class=" logo-btn"><a href="" class="navlinks  white">Request Invite</a></button>
     </div>
     <div class="intro-img">
       <img src="images/image-mockups.png" alt="" class="intro-img2">
-      
+
     </div>
   </section>
   <section class="advert">
     <div class="ad-head">
       <h2 class="ad-txt h3">Why choose Easybank?</h2>
-      <p class="ad-txt">We leverage Open Banking to turn your bank account into your financial hub. <br> Control 
+      <p class="ad-txt">We leverage Open Banking to turn your bank account into your financial hub. <br> Control
         your finances like never before.</p>
     </div>
     <div class="intro-flex">
       <div class="bank">
         <img src="images/icon-api.svg" alt="">
         <h4>Online Banking</h4>
-        <p class="lead1">Our modern web and mobile applications allow you to keep track of your finances 
+        <p class="lead1">Our modern web and mobile applications allow you to keep track of your finances
           wherever you are in the world</p>
       </div>
       <div class="budgeting">
         <img src="images/icon-budgeting.svg" alt="">
         <h4>Simple Budgeting</h4>
-        <p class="lead1"> See exactly where your money goes each month. Receive notifications when you’re 
+        <p class="lead1"> See exactly where your money goes each month. Receive notifications when you’re
           close to hitting your limits.
         </p>
       </div>
       <div class="Onboarding">
         <img src="images/icon-onboarding.svg" alt="">
         <h4>Fast Onboarding</h4>
-        <p class="lead1">We don’t do branches. Open your account in minutes online and start taking control 
+        <p class="lead1">We don’t do branches. Open your account in minutes online and start taking control
           of your finances right away.</p>
       </div>
       <div class="Open AI">
         <img src="images/icon-api.svg" alt="">
         <h4>Open API</h4>
-        <p class="lead1">Manage your savings, investments, pension, and much more from one account. Tracking 
+        <p class="lead1">Manage your savings, investments, pension, and much more from one account. Tracking
           your money has never been easier.
         </p>
       </div>
@@ -82,41 +91,49 @@
     <h2 class="article-head">Latest Articles</h2>
     <div class="articles-holder">
       <div class="claire">
-        <img src="images/image-currency.jpg" alt="" class="imgs" style="height: 191px;">
-        <h6 class="lfw">  By Claire Robinson</h6>
-         <p>Receive money in any currency with no fees</p>   
-        <p class="lfw">
-          The world is getting smaller and we’re becoming more mobile. So why should you be 
-          forced to only receive money in a single …
-        </p>
+        <div class="cl-holder">
+          <img src="images/image-currency.jpg" alt="" class="imgs" style="height: 191px;">
+          <h6 class="lfw"> By Claire Robinson</h6>
+          <p>Receive money in any currency with no fees</p>
+          <p class="lfw">
+            The world is getting smaller and we’re becoming more mobile. So why should you be
+            forced to only receive money in a single …
+          </p>
+        </div>
       </div>
       <div class="claire">
         <img src="images/image-restaurant.jpg" alt="" class="imgs">
-        <h6 class="lfw"> By Wilson Hutton</h6>
-        <p class="lfw">
-          <p >Treat yourself without worrying about money</p>   
-          Our simple budgeting feature allows you to separate out your spending and set 
-  realistic limits each month. That means you …
-        </p>
+        <div class="cl-holder">
+          <h6 class="lfw"> By Wilson Hutton</h6>
+          <p class="lfw">
+          <p>Treat yourself without worrying about money</p>
+          Our simple budgeting feature allows you to separate out your spending and set
+          realistic limits each month. That means you …
+          </p>
+        </div>
       </div>
       <div class="claire">
         <img src="images/image-plane.jpg" alt="" class="imgs">
-        <h6 class="lfw"> By Wilson Hutton</h6>
-         <p> Take your Easybank card wherever you go</p>   
-        <p class="lfw">
-          We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
-  while you’re abroad. We’ll even show you …
-        </p>
+        <div class="cl-holder">
+          <h6 class="lfw"> By Wilson Hutton</h6>
+          <p> Take your Easybank card wherever you go</p>
+          <p class="lfw">
+            We want you to enjoy your travels. This is why we don’t charge any fees on purchases
+            while you’re abroad. We’ll even show you …
+          </p>
+        </div>
       </div>
       <div class="claire">
-        <img src="images/image-confetti.jpg" alt="" class="imgs">
-        <h6 class="lfw">  By Claire Robinsonn</h6>
-         <p>
-          Our invite-only Beta accounts are now live!</p>   
-        <p class="lfw">
-          After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-          It’s easy to request an invite through the site ...…
-        </p>
+        <div class="cl-holder">
+          <img src="images/image-confetti.jpg" alt="" class="imgs">
+          <h6 class="lfw"> By Claire Robinsonn</h6>
+          <p>
+            Our invite-only Beta accounts are now live!</p>
+          <p class="lfw">
+            After a lot of hard work by the whole team, we’re excited to launch our closed beta.
+            It’s easy to request an invite through the site ...…
+          </p>
+        </div>
       </div>
 
     </div>
@@ -124,54 +141,54 @@
   </section>
 
 
-  
-  
-  
-
-  
 
 
 
-  
-
-  
-
-  
 
 
 
-  
-
-  
-
-  
-  
-
-  
- 
-  
-  
-
-  
-  
-  
-
-  
 
 
 
-  
-  
- 
 
-  
- 
- 
 
- 
-  
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   About Us
   Contact
@@ -183,10 +200,11 @@
   Request Invite
 
   © Easybank. All Rights Reserved
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="github.com/alarapeh" target="_blank">ALARAPE HABEEB </a>.
   </div>
 </body>
-</html> 
+
+</html>
